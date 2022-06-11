@@ -1,0 +1,81 @@
+<html>
+	
+	<head>
+		<title>
+			Feedback
+		</title>
+	</head>
+
+	<body bgcolor="mintcream">
+		<br>
+		<br>
+		<br>
+		<table width="49%" align="center" border="0" bgcolor="lightgreen">
+			<tr>
+				<td style="background-color: lightgreen;" colspan="3">
+					<h1 style="font-size: 300%; font-weight: normal; padding-bottom: 5px; color: darkgreen; text-align: center; border: 3px double black; border-radius: 10px; padding-top: 10px; background-color: mintcream;">
+						Feedback Form
+					</h1>
+				</td>
+			</tr>
+			<tr>
+				<td width="5%"></td>
+				<form>
+					<td width="10%">
+						<label style="padding-right: 50px;">
+							To:
+						</label>
+					</td>
+					<td>
+						<input list="pos" name="Pos" size="25">
+						<datalist id="pos">
+							<option>Principal</option>
+							<option>Manager</option>
+							<option>Trainer</option>
+						</datalist>
+					</td>
+				<tr>
+					<td></td>
+					<td>
+						<label for="name" style="padding-right: 50px;">
+							Name:
+						</label>
+					</td>
+					<td>
+						<input type="text" id="name" name="name" placeholder="Enter Full Name" size="75">
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>
+						<label for="Em">
+							Email:
+						</label>
+					</td>
+					<td>
+						<input type="email" id="Em" name="Em" placeholder="sample@example.com" size="75">
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td style="padding-bottom: 25px;">
+						<label for="fb">
+							Feedback:
+						</label>
+					</td>
+					<td style="padding-top: 10px;">
+						<textarea id="fb" placeholder="Please type your comment." cols="65" rows="3"></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td style="padding-top: 10px; padding-bottom: 5px; padding-left: 165px;">
+						<input type="submit" name="Submit" value="Submit">
+					</td>
+				</tr>
+				</form>
+			</tr>
+		</table>
+	</body>
+</html>
